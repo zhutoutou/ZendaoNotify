@@ -1,38 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Application/ZXH.ZendaoNotify.Application.csproj": {}
+    "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Application\\ZXH.ZendaoNotify.Application.csproj": {}
   },
   "projects": {
-    "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Application/ZXH.ZendaoNotify.Application.csproj": {
+    "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Application\\ZXH.ZendaoNotify.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Application/ZXH.ZendaoNotify.Application.csproj",
+        "projectUniqueName": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Application\\ZXH.ZendaoNotify.Application.csproj",
         "projectName": "ZXH.ZendaoNotify.Application",
-        "projectPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Application/ZXH.ZendaoNotify.Application.csproj",
-        "packagesPath": "/Users/zhuxinghan/.nuget/packages/",
-        "outputPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Application/obj/",
+        "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Application\\ZXH.ZendaoNotify.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/zhuxinghan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/ZXH.ZendaoNotify.Core.csproj": {
-                "projectPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/ZXH.ZendaoNotify.Core.csproj"
+              "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\ZXH.ZendaoNotify.Core.csproj": {
+                "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\ZXH.ZendaoNotify.Core.csproj"
               },
-              "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/ZXH.ZendaoNotify.Quartz.csproj": {
-                "projectPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/ZXH.ZendaoNotify.Quartz.csproj"
+              "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj": {
+                "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj"
               }
             }
           }
@@ -54,32 +58,42 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/ZXH.ZendaoNotify.Core.csproj": {
+    "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\ZXH.ZendaoNotify.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/ZXH.ZendaoNotify.Core.csproj",
+        "projectUniqueName": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\ZXH.ZendaoNotify.Core.csproj",
         "projectName": "ZXH.ZendaoNotify.Core",
-        "projectPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/ZXH.ZendaoNotify.Core.csproj",
-        "packagesPath": "/Users/zhuxinghan/.nuget/packages/",
-        "outputPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/obj/",
+        "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\ZXH.ZendaoNotify.Core.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/zhuxinghan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -98,7 +112,7 @@
           "dependencies": {
             "Abp.ZeroCore": {
               "target": "Package",
-              "version": "[4.8.1, )"
+              "version": "[4.9.0, )"
             },
             "Microsoft.Extensions.Configuration.EnvironmentVariables": {
               "target": "Package",
@@ -120,32 +134,42 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/ZXH.ZendaoNotify.Quartz.csproj": {
+    "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/ZXH.ZendaoNotify.Quartz.csproj",
+        "projectUniqueName": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj",
         "projectName": "ZXH.ZendaoNotify.Quartz",
-        "projectPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/ZXH.ZendaoNotify.Quartz.csproj",
-        "packagesPath": "/Users/zhuxinghan/.nuget/packages/",
-        "outputPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/obj/",
+        "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/zhuxinghan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -164,7 +188,7 @@
           "dependencies": {
             "Abp.Quartz": {
               "target": "Package",
-              "version": "[4.8.1, )"
+              "version": "[4.9.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -174,10 +198,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
         }
       }
     }
