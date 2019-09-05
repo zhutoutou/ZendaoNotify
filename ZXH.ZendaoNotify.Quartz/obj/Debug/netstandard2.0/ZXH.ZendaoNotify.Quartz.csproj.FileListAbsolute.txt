@@ -1,0 +1,9 @@
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/bin/Debug/netstandard2.0/ZXH.ZendaoNotify.Quartz.deps.json
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/bin/Debug/netstandard2.0/ZXH.ZendaoNotify.Quartz.dll
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/bin/Debug/netstandard2.0/ZXH.ZendaoNotify.Quartz.pdb
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Quartz.csproj.CoreCompileInputs.cache
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Quartz.AssemblyInfoInputs.cache
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Quartz.AssemblyInfo.cs
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Quartz.dll
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Quartz.pdb
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Quartz.csprojAssemblyReference.cache

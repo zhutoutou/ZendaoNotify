@@ -1,0 +1,9 @@
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/bin/Debug/netstandard2.0/ZXH.ZendaoNotify.Core.deps.json
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/bin/Debug/netstandard2.0/ZXH.ZendaoNotify.Core.dll
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/bin/Debug/netstandard2.0/ZXH.ZendaoNotify.Core.pdb
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Core.csproj.CoreCompileInputs.cache
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Core.AssemblyInfoInputs.cache
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Core.AssemblyInfo.cs
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Core.dll
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Core.pdb
+/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Core/obj/Debug/netstandard2.0/ZXH.ZendaoNotify.Core.csprojAssemblyReference.cache

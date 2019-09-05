@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZXH.ZendaoNotify.Core\ZXH.ZendaoNotify.Core.csproj" />
+    <ProjectReference Include="..\ZXH.ZendaoNotify.Application\ZXH.ZendaoNotify.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore" Version="4.8.1" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.0.6" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

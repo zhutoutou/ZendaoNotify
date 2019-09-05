@@ -1,0 +1,3 @@
+2019-09-05 10:52:15.6309 Error Error parsing layout NormalLayout will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'NormalLayout'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
