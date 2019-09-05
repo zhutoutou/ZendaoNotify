@@ -2,7 +2,7 @@
 using Abp.Localization;
 using Abp.MultiTenancy;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization
+namespace ZXH.ZendaoNotify.Core.Authorization
 {
     public class YoyoCmsTemplateAuthorizationProvider : AuthorizationProvider
     {
@@ -15,7 +15,7 @@ namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization
 
         private static ILocalizableString L(string name)
         {
-            return new LocalizableString(name, YoyoCmsTemplateConsts.LocalizationSourceName);
+            return new LocalizableString(name, ZendaoNotifyConstants.LocalizationSourceName);
         }
     }
 }

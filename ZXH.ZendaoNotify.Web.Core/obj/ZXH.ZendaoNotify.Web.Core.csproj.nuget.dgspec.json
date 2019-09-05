@@ -147,6 +147,74 @@
         }
       }
     },
+    "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.EntityFrameworkCore\\ZXH.ZendaoNotify.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.EntityFrameworkCore\\ZXH.ZendaoNotify.EntityFrameworkCore.csproj",
+        "projectName": "ZXH.ZendaoNotify.EntityFrameworkCore",
+        "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.EntityFrameworkCore\\ZXH.ZendaoNotify.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\ZXH.ZendaoNotify.Core.csproj": {
+                "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\ZXH.ZendaoNotify.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Abp.ZeroCore.IdentityServer4.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -244,6 +312,9 @@
               },
               "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\ZXH.ZendaoNotify.Core.csproj": {
                 "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Core\\ZXH.ZendaoNotify.Core.csproj"
+              },
+              "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.EntityFrameworkCore\\ZXH.ZendaoNotify.EntityFrameworkCore.csproj": {
+                "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.EntityFrameworkCore\\ZXH.ZendaoNotify.EntityFrameworkCore.csproj"
               }
             }
           }

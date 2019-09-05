@@ -1,7 +1,7 @@
 ﻿using Abp.MultiTenancy;
 using Abp.Zero.Configuration;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Roles
+namespace ZXH.ZendaoNotify.Core.Authorization.Roles
 {
     public static class AppRoleConfig
     {

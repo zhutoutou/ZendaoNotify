@@ -1,7 +1,7 @@
 ﻿using Abp.MultiTenancy;
-using LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Users;
+using ZXH.ZendaoNotify.Core.Authorization.Users;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.MultiTenancy
+namespace ZXH.ZendaoNotify.Core.MultiTenancy
 {
     public class Tenant : AbpTenant<User>
     {

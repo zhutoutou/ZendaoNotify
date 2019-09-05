@@ -1,14 +1,17 @@
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Logging;
 using Abp.Authorization;
 using Abp.Authorization.Roles;
+using Abp.Authorization.Users;
+using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
+using Abp.Organizations;
 using Abp.Runtime.Caching;
 using Abp.Zero.Configuration;
-using LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Users;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Logging;
+using ZXH.ZendaoNotify.Core.Authorization.Users;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Roles
+namespace ZXH.ZendaoNotify.Core.Authorization.Roles
 {
     public class RoleManager : AbpRoleManager<Role, User>
     {
@@ -21,7 +24,9 @@ namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Roles
             IPermissionManager permissionManager, 
             ICacheManager cacheManager, 
             IUnitOfWorkManager unitOfWorkManager,
-            IRoleManagementConfig roleManagementConfig)
+            IRoleManagementConfig roleManagementConfig   ,  
+            IRepository<OrganizationUnit, long> organizationUnitRepository,
+            IRepository<OrganizationUnitRole, long> organizationUnitRoleRepository)
             : base(
                   store,
                   roleValidators, 
@@ -30,7 +35,9 @@ namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Roles
                   permissionManager,
                   cacheManager, 
                   unitOfWorkManager,
-                  roleManagementConfig)
+                  roleManagementConfig,
+                  organizationUnitRepository,
+                  organizationUnitRoleRepository)
         {
         }
     }

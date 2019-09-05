@@ -1,10 +1,10 @@
 ﻿using Abp.Application.Features;
 using Abp.Domain.Repositories;
 using Abp.MultiTenancy;
-using LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Users;
-using LTMCompanyNameFree.YoyoCmsTemplate.Editions;
+using ZXH.ZendaoNotify.Core.Authorization.Users;
+using ZXH.ZendaoNotify.Core.Editions;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.MultiTenancy
+namespace ZXH.ZendaoNotify.Core.MultiTenancy
 {
     public class TenantManager : AbpTenantManager<Tenant, User>
     {

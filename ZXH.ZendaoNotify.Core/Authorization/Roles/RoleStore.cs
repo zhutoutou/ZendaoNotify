@@ -1,9 +1,9 @@
 using Abp.Authorization.Roles;
 using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
-using LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Users;
+using ZXH.ZendaoNotify.Core.Authorization.Users;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Roles
+namespace ZXH.ZendaoNotify.Core.Authorization.Roles
 {
     public class RoleStore : AbpRoleStore<Role, User>
     {

@@ -49,6 +49,46 @@
           "lib/netstandard2.0/Abp.AspNetCore.dll": {}
         }
       },
+      "Abp.AutoMapper/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Abp": "4.9.0",
+          "AutoMapper": "8.1.1",
+          "AutoMapper.Collection": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Abp.AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Abp.AutoMapper.dll": {}
+        }
+      },
+      "Abp.EntityFramework.Common/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Abp": "4.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Abp.EntityFramework.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Abp.EntityFramework.Common.dll": {}
+        }
+      },
+      "Abp.EntityFrameworkCore/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Abp.EntityFramework.Common": "4.9.0",
+          "Microsoft.EntityFrameworkCore": "2.2.4",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Abp.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Abp.EntityFrameworkCore.dll": {}
+        }
+      },
       "Abp.Quartz/4.9.0": {
         "type": "package",
         "dependencies": {
@@ -98,6 +138,72 @@
         },
         "runtime": {
           "lib/netstandard2.0/Abp.ZeroCore.dll": {}
+        }
+      },
+      "Abp.ZeroCore.EntityFrameworkCore/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Abp.EntityFrameworkCore": "4.9.0",
+          "Abp.ZeroCore": "4.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Abp.ZeroCore.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Abp.ZeroCore.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Abp.ZeroCore.IdentityServer4/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Abp.AutoMapper": "4.9.0",
+          "Abp.ZeroCore": "4.9.0",
+          "IdentityServer4": "2.5.0",
+          "IdentityServer4.AspNetIdentity": "2.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.dll": {}
+        }
+      },
+      "Abp.ZeroCore.IdentityServer4.EntityFrameworkCore/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Abp.ZeroCore.EntityFrameworkCore": "4.9.0",
+          "Abp.ZeroCore.IdentityServer4": "4.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.EntityFrameworkCore.dll": {}
+        }
+      },
+      "AutoMapper/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Collection/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "8.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Collection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Collection.dll": {}
         }
       },
       "Castle.Core/4.4.0": {
@@ -195,6 +301,69 @@
         },
         "runtime": {
           "lib/netstandard2.0/Castle.Windsor.MsDependencyInjection.dll": {}
+        }
+      },
+      "IdentityModel/3.10.10": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.1",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityServer4/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "3.10.10",
+          "IdentityServer4.Storage": "2.5.0",
+          "Microsoft.AspNetCore.Authentication": "2.1.0",
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.1.0",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "2.1.0",
+          "Microsoft.AspNetCore.Authorization": "2.1.0",
+          "Microsoft.AspNetCore.Cors": "2.1.0",
+          "Microsoft.Extensions.Caching.Memory": "2.1.0",
+          "Microsoft.Extensions.Http": "2.1.0",
+          "Microsoft.Extensions.Logging": "2.1.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.1.0",
+          "System.IdentityModel.Tokens.Jwt": "5.2.4",
+          "System.Security.Cryptography.Cng": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.dll": {}
+        }
+      },
+      "IdentityServer4.AspNetIdentity/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityServer4": "2.5.0",
+          "Microsoft.AspNetCore.Identity": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {}
+        }
+      },
+      "IdentityServer4.Storage/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "3.10.10",
+          "Microsoft.AspNetCore.Authentication.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
         }
       },
       "JetBrains.Annotations/2019.1.1": {
@@ -1877,11 +2046,11 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/2.2.0": {
+      "Microsoft.EntityFrameworkCore/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.4",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.4",
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.Logging": "2.2.0",
@@ -1898,7 +2067,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/2.2.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -1907,7 +2076,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Analyzers/2.2.4": {
         "type": "package"
       },
       "Microsoft.EntityFrameworkCore.Design/2.2.0": {
@@ -1938,10 +2107,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Relational/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.0"
+          "Microsoft.EntityFrameworkCore": "2.2.4"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -5135,6 +5304,20 @@
           "bin/placeholder/ZXH.ZendaoNotify.Core.dll": {}
         }
       },
+      "ZXH.ZendaoNotify.EntityFrameworkCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Abp.ZeroCore.IdentityServer4.EntityFrameworkCore": "4.9.0",
+          "ZXH.ZendaoNotify.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZXH.ZendaoNotify.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZXH.ZendaoNotify.EntityFrameworkCore.dll": {}
+        }
+      },
       "ZXH.ZendaoNotify.Quartz/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -5155,7 +5338,8 @@
           "Abp.AspNetCore": "4.9.0",
           "NSwag.AspNetCore": "13.0.6",
           "ZXH.ZendaoNotify.Application": "1.0.0",
-          "ZXH.ZendaoNotify.Core": "1.0.0"
+          "ZXH.ZendaoNotify.Core": "1.0.0",
+          "ZXH.ZendaoNotify.EntityFrameworkCore": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ZXH.ZendaoNotify.Web.Core.dll": {}
@@ -5193,6 +5377,48 @@
         "lib/netstandard2.0/Abp.AspNetCore.dll",
         "lib/netstandard2.0/Abp.AspNetCore.pdb",
         "lib/netstandard2.0/Abp.AspNetCore.xml"
+      ]
+    },
+    "Abp.AutoMapper/4.9.0": {
+      "sha512": "Wwz2tsgcew/qPps3tiV7suLpMZ7/h5vgGGxSTUiCV7btK/2mssM7vsx8glGe4CBPs5juFJ6oBHmRN5AJJAAHzQ==",
+      "type": "package",
+      "path": "abp.automapper/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "abp.automapper.4.9.0.nupkg.sha512",
+        "abp.automapper.nuspec",
+        "lib/netstandard2.0/Abp.AutoMapper.dll",
+        "lib/netstandard2.0/Abp.AutoMapper.pdb",
+        "lib/netstandard2.0/Abp.AutoMapper.xml"
+      ]
+    },
+    "Abp.EntityFramework.Common/4.9.0": {
+      "sha512": "A2QB/ENPwzEVxNCsWHD/bT3NM+yy4ol2Hpk754HgQ0YPHIW3t/2VmJRsgPp+PWGZ4smeIsPlUCH7LVqUrIsPRw==",
+      "type": "package",
+      "path": "abp.entityframework.common/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "abp.entityframework.common.4.9.0.nupkg.sha512",
+        "abp.entityframework.common.nuspec",
+        "lib/netstandard2.0/Abp.EntityFramework.Common.dll",
+        "lib/netstandard2.0/Abp.EntityFramework.Common.pdb",
+        "lib/netstandard2.0/Abp.EntityFramework.Common.xml"
+      ]
+    },
+    "Abp.EntityFrameworkCore/4.9.0": {
+      "sha512": "CGKlz3LOOJqoxsw7yZ3b0e4vfzSz9GfE3K8WssY+NruF2Sid55VjETinXm3iLeoeUJM58itMGuBwnNqG8ZrjLA==",
+      "type": "package",
+      "path": "abp.entityframeworkcore/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "abp.entityframeworkcore.4.9.0.nupkg.sha512",
+        "abp.entityframeworkcore.nuspec",
+        "lib/netstandard2.0/Abp.EntityFrameworkCore.dll",
+        "lib/netstandard2.0/Abp.EntityFrameworkCore.pdb",
+        "lib/netstandard2.0/Abp.EntityFrameworkCore.xml"
       ]
     },
     "Abp.Quartz/4.9.0": {
@@ -5249,6 +5475,78 @@
         "lib/netstandard2.0/Abp.ZeroCore.dll",
         "lib/netstandard2.0/Abp.ZeroCore.pdb",
         "lib/netstandard2.0/Abp.ZeroCore.xml"
+      ]
+    },
+    "Abp.ZeroCore.EntityFrameworkCore/4.9.0": {
+      "sha512": "l0zt5EnPL5xyoo+gGtJc4uQS6xTTRIN9aXnA8kHozd24BRKBmvxtUePnVJ6zB5EbtmJDMFAYXaZ7T3Ryb2gOrA==",
+      "type": "package",
+      "path": "abp.zerocore.entityframeworkcore/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "abp.zerocore.entityframeworkcore.4.9.0.nupkg.sha512",
+        "abp.zerocore.entityframeworkcore.nuspec",
+        "lib/netstandard2.0/Abp.ZeroCore.EntityFrameworkCore.dll",
+        "lib/netstandard2.0/Abp.ZeroCore.EntityFrameworkCore.pdb",
+        "lib/netstandard2.0/Abp.ZeroCore.EntityFrameworkCore.xml"
+      ]
+    },
+    "Abp.ZeroCore.IdentityServer4/4.9.0": {
+      "sha512": "RSJVgD9XL/msozw/N98F7fO23SJdvjip446XghV+L+7e3t2ndmwIfn6zPLO79OV2GCy5meBs/Nv+/CZGDsfsqg==",
+      "type": "package",
+      "path": "abp.zerocore.identityserver4/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "abp.zerocore.identityserver4.4.9.0.nupkg.sha512",
+        "abp.zerocore.identityserver4.nuspec",
+        "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.dll",
+        "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.pdb",
+        "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.xml"
+      ]
+    },
+    "Abp.ZeroCore.IdentityServer4.EntityFrameworkCore/4.9.0": {
+      "sha512": "hePHUur6AbEv9J5GONOoCEAVcN1Bs78bRctccxdE4imL4GpTN7RaidPUoedhuOOBvUTtHo2mwJuGKauYWR6zfg==",
+      "type": "package",
+      "path": "abp.zerocore.identityserver4.entityframeworkcore/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "abp.zerocore.identityserver4.entityframeworkcore.4.9.0.nupkg.sha512",
+        "abp.zerocore.identityserver4.entityframeworkcore.nuspec",
+        "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.EntityFrameworkCore.dll",
+        "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.EntityFrameworkCore.pdb",
+        "lib/netstandard2.0/Abp.ZeroCore.IdentityServer4.EntityFrameworkCore.xml"
+      ]
+    },
+    "AutoMapper/8.1.1": {
+      "sha512": "GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
+      "type": "package",
+      "path": "automapper/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.8.1.1.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Collection/5.0.0": {
+      "sha512": "PTcaaXG1UpWtVlgjdskYA6AJqxvakNvfNS78jEkrBqqkOrM/AoeAO1/aajHqbyQ90qQcsqE3EUar73E6Ri4paA==",
+      "type": "package",
+      "path": "automapper.collection/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.collection.5.0.0.nupkg.sha512",
+        "automapper.collection.nuspec",
+        "lib/net461/AutoMapper.Collection.dll",
+        "lib/netstandard2.0/AutoMapper.Collection.dll"
       ]
     },
     "Castle.Core/4.4.0": {
@@ -5359,6 +5657,68 @@
         "castle.windsor.msdependencyinjection.nuspec",
         "lib/netstandard2.0/Castle.Windsor.MsDependencyInjection.dll",
         "lib/netstandard2.0/Castle.Windsor.MsDependencyInjection.pdb"
+      ]
+    },
+    "IdentityModel/3.10.10": {
+      "sha512": "1CZDkFEZC5hU615GrTXLoamLlLlZVNURnjbdjELw3keSRcPufSIwP5NI0f8quUBV/beuKy9yIqYemmMIDIY87w==",
+      "type": "package",
+      "path": "identitymodel/3.10.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "identitymodel.3.10.10.nupkg.sha512",
+        "identitymodel.nuspec",
+        "lib/net452/IdentityModel.dll",
+        "lib/net452/IdentityModel.pdb",
+        "lib/net452/IdentityModel.xml",
+        "lib/netstandard1.4/IdentityModel.dll",
+        "lib/netstandard1.4/IdentityModel.pdb",
+        "lib/netstandard1.4/IdentityModel.xml",
+        "lib/netstandard2.0/IdentityModel.dll",
+        "lib/netstandard2.0/IdentityModel.pdb",
+        "lib/netstandard2.0/IdentityModel.xml"
+      ]
+    },
+    "IdentityServer4/2.5.0": {
+      "sha512": "IgXtZJnyrdC+zv7DSk0e0teDbNurid1yYOj/DWf5JitN7qUz+xmUMPIh3mXy7IUyLofGnmFfvbOfoUKZY5sy6g==",
+      "type": "package",
+      "path": "identityserver4/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "identityserver4.2.5.0.nupkg.sha512",
+        "identityserver4.nuspec",
+        "lib/netstandard2.0/IdentityServer4.dll",
+        "lib/netstandard2.0/IdentityServer4.pdb",
+        "lib/netstandard2.0/IdentityServer4.xml"
+      ]
+    },
+    "IdentityServer4.AspNetIdentity/2.5.0": {
+      "sha512": "go54gqRZuRCuP5edwM8vS3DsFW40i9E1OC+TZI9OA3c4jrJQwSBs3h+FAwDijyY/Kj9I4timN92Q5lyKBb16Eg==",
+      "type": "package",
+      "path": "identityserver4.aspnetidentity/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "identityserver4.aspnetidentity.2.5.0.nupkg.sha512",
+        "identityserver4.aspnetidentity.nuspec",
+        "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll",
+        "lib/netstandard2.0/IdentityServer4.AspNetIdentity.pdb",
+        "lib/netstandard2.0/IdentityServer4.AspNetIdentity.xml"
+      ]
+    },
+    "IdentityServer4.Storage/2.5.0": {
+      "sha512": "phhkhDcGfxLquNZA2biFt5S5XIUy0QUeD1c0dMfsdW3Lf4OdW47eO/YbpR3rxhBXKem25NmS6W3OAOXo94TIyw==",
+      "type": "package",
+      "path": "identityserver4.storage/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "identityserver4.storage.2.5.0.nupkg.sha512",
+        "identityserver4.storage.nuspec",
+        "lib/netstandard2.0/IdentityServer4.Storage.dll",
+        "lib/netstandard2.0/IdentityServer4.Storage.pdb",
+        "lib/netstandard2.0/IdentityServer4.Storage.xml"
       ]
     },
     "JetBrains.Annotations/2019.1.1": {
@@ -6824,41 +7184,41 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/2.2.0": {
-      "sha512": "xfDHe+J94oz2d+ESDU8u+96iSfsiPwpgYGPRSp/bato0Ekjz5kYs61u9mS0GN5t8n/wxc5P3uEJm1x7TfROxhQ==",
+    "Microsoft.EntityFrameworkCore/2.2.4": {
+      "sha512": "aQ0sAe2mOtSp3StjKT2wDA/BO3k8BLfpIXIG1MOlGytjQWQOvW3BzDPfgXOhxbSa7Bhdsx97aYzZUGD3DQAQjQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/2.2.0",
+      "path": "microsoft.entityframeworkcore/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
-      "sha512": "/js/H09B8MQGoPDFzJoaAealyL66g4vKf7DVcdBYcxgKztkttjZbRzSWKF9PZZFyfBl9Ia/BiStM70t7kjgMpg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/2.2.4": {
+      "sha512": "GjtIOANlpy7JcGK0Q169n52713hIHHfxUHq1+xoWlAZYSI0h/n2DrEWwCIsrnInU8FaLq4cIG7UgMTL0CnUUPw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/2.2.0",
+      "path": "microsoft.entityframeworkcore.abstractions/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
-      "sha512": "/1rw3toRCal80Ch51lIjuf/0WfW9ZGB4eRY1y6GOcOoOvnMXXXt+4xMRw/0k0kIwHsWUNXUpw73jf40/Pe+ZYA==",
+    "Microsoft.EntityFrameworkCore.Analyzers/2.2.4": {
+      "sha512": "cLJo6dikdFQd2j9cFHhC2M1rzUeYvJLR/m7cBcuKRI6ek5t5ZyGZ0hzEJwCQmKRDV4tAl5p+NIrfDjfqTK8POw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/2.2.0",
+      "path": "microsoft.entityframeworkcore.analyzers/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
-        "microsoft.entityframeworkcore.analyzers.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -6892,16 +7252,16 @@
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
-      "sha512": "CRJHHp/GqmXByeeODgbDgMDWId9kKT9TDRzHF8voWHFNTajBQl0U4jaMrHxjIP6hJ2olF8n+5GYmQv+v3bUVKQ==",
+    "Microsoft.EntityFrameworkCore.Relational/2.2.4": {
+      "sha512": "Ga+kJhoSBNYv8C2gQl2sB5bTBkWsLFn92CPjZA5ql/MyxJTWri6lf44/GSYEcOQj0tqF5HhMAaB1HxQMiIPBcQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/2.2.0",
+      "path": "microsoft.entityframeworkcore.relational/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -13861,6 +14221,11 @@
       "type": "project",
       "path": "../ZXH.ZendaoNotify.Core/ZXH.ZendaoNotify.Core.csproj",
       "msbuildProject": "../ZXH.ZendaoNotify.Core/ZXH.ZendaoNotify.Core.csproj"
+    },
+    "ZXH.ZendaoNotify.EntityFrameworkCore/1.0.0": {
+      "type": "project",
+      "path": "../ZXH.ZendaoNotify.EntityFrameworkCore/ZXH.ZendaoNotify.EntityFrameworkCore.csproj",
+      "msbuildProject": "../ZXH.ZendaoNotify.EntityFrameworkCore/ZXH.ZendaoNotify.EntityFrameworkCore.csproj"
     },
     "ZXH.ZendaoNotify.Quartz/1.0.0": {
       "type": "project",

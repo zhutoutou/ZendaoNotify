@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Abp.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using Abp.Authorization;
-using LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Roles;
+using ZXH.ZendaoNotify.Core.Authorization.Roles;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Users
+namespace ZXH.ZendaoNotify.Core.Authorization.Users
 {
     public class UserClaimsPrincipalFactory : AbpUserClaimsPrincipalFactory<User, Role>
     {

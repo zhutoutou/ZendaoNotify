@@ -2,7 +2,7 @@
 using Abp.Authorization.Users;
 using Abp.Extensions;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Users
+namespace ZXH.ZendaoNotify.Core.Authorization.Users
 {
     public class User : AbpUser<User>
     {

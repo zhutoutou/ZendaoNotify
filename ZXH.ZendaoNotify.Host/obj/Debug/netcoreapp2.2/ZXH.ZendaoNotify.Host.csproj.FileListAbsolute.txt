@@ -52,3 +52,5 @@ E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZendaoN
 E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZendaoNotify.Host.dll
 E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZendaoNotify.Host.xml
 E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZendaoNotify.Host.pdb
+E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\bin\Debug\netcoreapp2.2\ZXH.ZendaoNotify.EntityFrameworkCore.dll
+E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\bin\Debug\netcoreapp2.2\ZXH.ZendaoNotify.EntityFrameworkCore.pdb

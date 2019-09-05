@@ -1,8 +1,8 @@
 ﻿using Abp.Authorization;
-using LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Roles;
-using LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Users;
+using ZXH.ZendaoNotify.Core.Authorization.Roles;
+using ZXH.ZendaoNotify.Core.Authorization.Users;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization
+namespace ZXH.ZendaoNotify.Core.Authorization
 {
     public class PermissionChecker : PermissionChecker<Role, User>
     {

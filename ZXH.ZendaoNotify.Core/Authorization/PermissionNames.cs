@@ -1,4 +1,4 @@
-﻿namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization
+﻿namespace ZXH.ZendaoNotify.Core.Authorization
 {
     public static class PermissionNames
     {

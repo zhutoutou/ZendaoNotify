@@ -1756,7 +1756,8 @@
           "Abp.ZeroCore": "4.9.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.2.4",
           "Microsoft.Extensions.Configuration.Json": "2.2.0",
-          "Microsoft.Extensions.Configuration.UserSecrets": "2.2.0"
+          "Microsoft.Extensions.Configuration.UserSecrets": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "2.2.4.0"
         },
         "runtime": {
           "ZXH.ZendaoNotify.Core.dll": {}
@@ -1768,6 +1769,14 @@
         },
         "runtime": {
           "ZXH.ZendaoNotify.Quartz.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Reference/2.2.4.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "2.2.4.0",
+            "fileVersion": "2.2.4.19081"
+          }
         }
       }
     }
@@ -2786,6 +2795,11 @@
     },
     "ZXH.ZendaoNotify.Quartz/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore.Reference/2.2.4.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

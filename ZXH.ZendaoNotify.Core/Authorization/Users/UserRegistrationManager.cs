@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Abp.Authorization.Users;
 using Abp.Domain.Services;
 using Abp.IdentityFramework;
 using Abp.Runtime.Session;
 using Abp.UI;
-using LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Roles;
-using LTMCompanyNameFree.YoyoCmsTemplate.MultiTenancy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using ZXH.ZendaoNotify.Core.Authorization.Roles;
+using ZXH.ZendaoNotify.Core.MultiTenancy;
 
-namespace LTMCompanyNameFree.YoyoCmsTemplate.Authorization.Users
+namespace ZXH.ZendaoNotify.Core.Authorization.Users
 {
     public class UserRegistrationManager : DomainService
     {
