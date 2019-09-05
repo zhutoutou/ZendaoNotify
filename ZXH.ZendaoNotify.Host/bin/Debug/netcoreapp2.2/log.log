@@ -1,0 +1,104 @@
+2019-09-05 11:18:44.2921 FATAL System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\Configuration\AbpZeroEntityTypes.cs:line 63
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 101
+   at Abp.Zero.AbpZeroCommonModule.Initialize() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 55
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 48
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155 (Abp.AbpBootstrapper.Initialize)
+2019-09-05 11:18:44.4171 FATAL Application startup exception (Microsoft.AspNetCore.Hosting.Internal.HostingLoggerExtensions.ApplicationError)
+2019-09-05 11:18:44.2921 FATAL System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\Configuration\AbpZeroEntityTypes.cs:line 63
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 101
+   at Abp.Zero.AbpZeroCommonModule.Initialize() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 55
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 48
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155 (Abp.AbpBootstrapper.Initialize) (ConventionBasedStartup.Configure => <>c__DisplayClass4_0.<Build>b__0 => ConfigureBuilder.Invoke => MethodBase.Invoke => RuntimeMethodInfo.Invoke => RuntimeMethodHandle.InvokeMethod => Startup.Configure => AbpApplicationBuilderExtensions.UseAbp => AbpApplicationBuilderExtensions.InitializeAbp => AbpBootstrapper.Initialize) System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\Configuration\AbpZeroEntityTypes.cs:line 63
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 101
+   at Abp.Zero.AbpZeroCommonModule.Initialize() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 55
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 48
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at ZXH.ZendaoNotify.Host.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\Startup.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Internal.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-09-05 11:18:44.4171 FATAL Application startup exception (Microsoft.AspNetCore.Hosting.Internal.HostingLoggerExtensions.ApplicationError) (<RunAsync>d__4.MoveNext => WebHostExtensions.RunAsync => AsyncMethodBuilderCore.Start => <RunAsync>d__5.MoveNext => WebHost.StartAsync => AsyncMethodBuilderCore.Start => <StartAsync>d__26.MoveNext => WebHost.BuildApplication => HostingLoggerExtensions.ApplicationError => HostingLoggerExtensions.ApplicationError) System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\Configuration\AbpZeroEntityTypes.cs:line 63
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 101
+   at Abp.Zero.AbpZeroCommonModule.Initialize() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 55
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 48
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at ZXH.ZendaoNotify.Host.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\Startup.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Internal.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.RunAsync(IWebHost host, CancellationToken token, String shutdownMessage)
+2019-09-05 11:20:18.9792 FATAL System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\Configuration\AbpZeroEntityTypes.cs:line 63
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 101
+   at Abp.Zero.AbpZeroCommonModule.Initialize() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 55
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 48
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155 (Abp.AbpBootstrapper.Initialize)
+2019-09-05 11:20:19.0927 FATAL Application startup exception (Microsoft.AspNetCore.Hosting.Internal.HostingLoggerExtensions.ApplicationError)
+2019-09-05 11:20:18.9792 FATAL System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\Configuration\AbpZeroEntityTypes.cs:line 63
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 101
+   at Abp.Zero.AbpZeroCommonModule.Initialize() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 55
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 48
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155 (Abp.AbpBootstrapper.Initialize) (ConventionBasedStartup.Configure => <>c__DisplayClass4_0.<Build>b__0 => ConfigureBuilder.Invoke => MethodBase.Invoke => RuntimeMethodInfo.Invoke => RuntimeMethodHandle.InvokeMethod => Startup.Configure => AbpApplicationBuilderExtensions.UseAbp => AbpApplicationBuilderExtensions.InitializeAbp => AbpBootstrapper.Initialize) System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\Configuration\AbpZeroEntityTypes.cs:line 63
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 101
+   at Abp.Zero.AbpZeroCommonModule.Initialize() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 55
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 48
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at ZXH.ZendaoNotify.Host.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\Startup.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Internal.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-09-05 11:20:19.0927 FATAL Application startup exception (Microsoft.AspNetCore.Hosting.Internal.HostingLoggerExtensions.ApplicationError) (<RunAsync>d__4.MoveNext => WebHostExtensions.RunAsync => AsyncMethodBuilderCore.Start => <RunAsync>d__5.MoveNext => WebHost.StartAsync => AsyncMethodBuilderCore.Start => <StartAsync>d__26.MoveNext => WebHost.BuildApplication => HostingLoggerExtensions.ApplicationError => HostingLoggerExtensions.ApplicationError) System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\Configuration\AbpZeroEntityTypes.cs:line 63
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 101
+   at Abp.Zero.AbpZeroCommonModule.Initialize() in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\Zero\AbpZeroCommonModule.cs:line 55
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules() in D:\Github\aspnetboilerplate\src\Abp\Modules\AbpModuleManager.cs:line 48
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at ZXH.ZendaoNotify.Host.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\Startup.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Internal.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.RunAsync(IWebHost host, CancellationToken token, String shutdownMessage)

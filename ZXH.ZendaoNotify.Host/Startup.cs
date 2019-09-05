@@ -34,6 +34,8 @@ namespace ZXH.ZendaoNotify.Host
                 options.Filters.Add(new CorsAuthorizationFilterFactory(_defaultCorsPolicyName)))
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            services.AddEntityFrameworkInMemoryDatabase();
+
             // Configure CORS for UI
             services.AddCors(options =>
                 options.AddPolicy(
