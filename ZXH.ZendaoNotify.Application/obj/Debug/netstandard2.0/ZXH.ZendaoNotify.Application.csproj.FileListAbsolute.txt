@@ -26,5 +26,3 @@ E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Application\obj\Debug\netstandard2.0\ZXH
 E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Application\obj\Debug\netstandard2.0\ZXH.ZendaoNotify.Application.csproj.CopyComplete
 E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Application\obj\Debug\netstandard2.0\ZXH.ZendaoNotify.Application.dll
 E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Application\obj\Debug\netstandard2.0\ZXH.ZendaoNotify.Application.pdb
-E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Application\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.dll
-E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Application\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.xml
