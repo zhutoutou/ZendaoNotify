@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ZXH.ZendaoNotify.Core\ZXH.ZendaoNotify.Core.csproj" />
     <ProjectReference Include="..\ZXH.ZendaoNotify.Application\ZXH.ZendaoNotify.Application.csproj" />
+    <ProjectReference Include="..\ZXH.ZendaoNotify.EntityFrameworkCore\ZXH.ZendaoNotify.EntityFrameworkCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>
