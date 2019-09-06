@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ZXH.ZendaoNotify.Core",
     "\\ZXH.ZendaoNotify.Core\\Authorization",
     "\\ZXH.ZendaoNotify.Core\\Authorization\\Roles",
+    "\\ZXH.ZendaoNotify.EntityFrameworkCore",
+    "\\ZXH.ZendaoNotify.EntityFrameworkCore\\EntityFrameworkCore",
     "\\ZXH.ZendaoNotify.Host",
     "\\ZXH.ZendaoNotify.Web.Core"
   ],
-  "SelectedNode": "\\ZXH.ZendaoNotify.sln",
   "PreviewInSolutionExplorer": false
 }

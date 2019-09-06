@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore;
 using ZXH.ZendaoNotify.Web.Core.Configuration;
 
 namespace ZXH.ZendaoNotify.Host
@@ -19,7 +20,7 @@ namespace ZXH.ZendaoNotify.Host
     public class Startup
     {
         private readonly IConfigurationRoot _appConfiguration;
-        private const string _defaultCorsPolicyName = "localhost";
+        private const string DefaultCorsPolicyName = "localhost";
         public Startup(
             IHostingEnvironment env,
             IConfiguration configuration)
@@ -31,8 +32,10 @@ namespace ZXH.ZendaoNotify.Host
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddEntityFrameworkInMemoryDatabase()
+                .AddDbContext<ZendaoNotifyDbContext>((sp, options) => { options.UseInMemoryDatabase(); });
             services.AddMvc(options =>
-                options.Filters.Add(new CorsAuthorizationFilterFactory(_defaultCorsPolicyName)))
+                options.Filters.Add(new CorsAuthorizationFilterFactory(DefaultCorsPolicyName)))
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddEntityFrameworkInMemoryDatabase();
@@ -40,7 +43,7 @@ namespace ZXH.ZendaoNotify.Host
             // Configure CORS for UI
             services.AddCors(options =>
                 options.AddPolicy(
-                    _defaultCorsPolicyName,
+                    DefaultCorsPolicyName,
                     builder => builder
                         .WithOrigins(
                             _appConfiguration["App:CorsOrigins"]

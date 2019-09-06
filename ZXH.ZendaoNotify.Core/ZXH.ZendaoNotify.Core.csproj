@@ -9,6 +9,7 @@
     <PackageReference Include="Abp.AutoMapper" Version="4.9.0" />
     <PackageReference Include="Abp.ZeroCore" Version="4.9.0" />
     <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="4.9.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.6" />
     <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.2.4" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="2.2.0" />
