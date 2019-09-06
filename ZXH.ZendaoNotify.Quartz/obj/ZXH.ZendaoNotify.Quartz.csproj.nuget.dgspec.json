@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj": {}
+    "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/ZXH.ZendaoNotify.Quartz.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj": {
+    "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/ZXH.ZendaoNotify.Quartz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj",
+        "projectUniqueName": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/ZXH.ZendaoNotify.Quartz.csproj",
         "projectName": "ZXH.ZendaoNotify.Quartz",
-        "projectPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\ZXH.ZendaoNotify.Quartz.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\ZendaoNotify\\ZXH.ZendaoNotify.Quartz\\obj\\",
+        "projectPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/ZXH.ZendaoNotify.Quartz.csproj",
+        "packagesPath": "/Users/zhuxinghan/.nuget/packages/",
+        "outputPath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Quartz/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+          "/Users/zhuxinghan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,16 +51,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
