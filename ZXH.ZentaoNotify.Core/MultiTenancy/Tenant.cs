@@ -1,7 +1,7 @@
 ﻿using Abp.MultiTenancy;
-using ZXH.ZendaoNotify.Core.Authorization.Users;
+using ZXH.ZentaoNotify.Core.Authorization.Users;
 
-namespace ZXH.ZendaoNotify.Core.MultiTenancy
+namespace ZXH.ZentaoNotify.Core.MultiTenancy
 {
     public class Tenant : AbpTenant<User>
     {

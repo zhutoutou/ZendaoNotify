@@ -1,8 +1,8 @@
 ﻿using Abp.Authorization;
-using ZXH.ZendaoNotify.Core.Authorization.Roles;
-using ZXH.ZendaoNotify.Core.Authorization.Users;
+using ZXH.ZentaoNotify.Core.Authorization.Roles;
+using ZXH.ZentaoNotify.Core.Authorization.Users;
 
-namespace ZXH.ZendaoNotify.Core.Authorization
+namespace ZXH.ZentaoNotify.Core.Authorization
 {
     public class PermissionChecker : PermissionChecker<Role, User>
     {

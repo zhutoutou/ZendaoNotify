@@ -1,9 +1,9 @@
 using Abp.Authorization.Roles;
 using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
-using ZXH.ZendaoNotify.Core.Authorization.Users;
+using ZXH.ZentaoNotify.Core.Authorization.Users;
 
-namespace ZXH.ZendaoNotify.Core.Authorization.Roles
+namespace ZXH.ZentaoNotify.Core.Authorization.Roles
 {
     public class RoleStore : AbpRoleStore<Role, User>
     {

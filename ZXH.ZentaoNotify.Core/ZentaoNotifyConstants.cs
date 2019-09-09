@@ -1,4 +1,4 @@
-﻿namespace ZXH.ZendaoNotify.Core
+﻿namespace ZXH.ZentaoNotify.Core
 {
     public class ZendaoNotifyConstants
     {

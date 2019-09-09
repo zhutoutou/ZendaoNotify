@@ -1,4 +1,4 @@
-namespace ZXH.ZendaoNotify.Core.Authorization.Roles
+namespace ZXH.ZentaoNotify.Core.Authorization.Roles
 {
     public static class StaticRoleNames
     {

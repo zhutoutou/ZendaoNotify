@@ -2,7 +2,7 @@
 using Abp.Authorization.Users;
 using Abp.Extensions;
 
-namespace ZXH.ZendaoNotify.Core.Authorization.Users
+namespace ZXH.ZentaoNotify.Core.Authorization.Users
 {
     public class User : AbpUser<User>
     {

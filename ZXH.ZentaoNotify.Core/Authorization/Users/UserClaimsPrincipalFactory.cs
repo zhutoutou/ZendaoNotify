@@ -1,9 +1,9 @@
 ﻿using Abp.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using ZXH.ZendaoNotify.Core.Authorization.Roles;
+using ZXH.ZentaoNotify.Core.Authorization.Roles;
 
-namespace ZXH.ZendaoNotify.Core.Authorization.Users
+namespace ZXH.ZentaoNotify.Core.Authorization.Users
 {
     public class UserClaimsPrincipalFactory : AbpUserClaimsPrincipalFactory<User, Role>
     {

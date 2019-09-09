@@ -1,10 +1,9 @@
-
 using System.Collections.Concurrent;
 using Abp.Extensions;
 using Abp.Reflection.Extensions;
 using Microsoft.Extensions.Configuration;
 
-namespace ZXH.ZendaoNotify.Core.Configuration
+namespace ZXH.ZentaoNotify.Core.Configuration
 {
     public class AppConfigurations
     {

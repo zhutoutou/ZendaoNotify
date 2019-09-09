@@ -1,4 +1,4 @@
-namespace ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Host
+namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Host
 {
     public class InitialHostDbBuilder
     {

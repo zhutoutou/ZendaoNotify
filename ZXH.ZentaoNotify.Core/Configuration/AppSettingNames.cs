@@ -1,4 +1,4 @@
-namespace ZXH.ZendaoNotify.Core.Configuration
+namespace ZXH.ZentaoNotify.Core.Configuration
 {
     public class AppSettingNames
     {

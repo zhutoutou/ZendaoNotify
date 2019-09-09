@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using ZXH.ZendaoNotify.Core.Configuration;
+using ZXH.ZentaoNotify.Core.Configuration;
 
-namespace ZXH.ZendaoNotify.Web.Core.Configuration
+namespace ZXH.ZentaoNotify.Web.Core.Configuration
 {
     public static class HostingEnvironmentExtensions
     {

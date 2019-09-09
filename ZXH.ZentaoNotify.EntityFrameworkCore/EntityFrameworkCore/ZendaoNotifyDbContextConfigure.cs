@@ -1,7 +1,7 @@
 using System.Data.Common;
 using Microsoft.EntityFrameworkCore;
 
-namespace ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore
+namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore
 {
 
     public class ZendaoNotifyDbContextConfigure

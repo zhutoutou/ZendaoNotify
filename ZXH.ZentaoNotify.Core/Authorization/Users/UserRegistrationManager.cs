@@ -9,10 +9,10 @@ using Abp.Runtime.Session;
 using Abp.UI;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ZXH.ZendaoNotify.Core.Authorization.Roles;
-using ZXH.ZendaoNotify.Core.MultiTenancy;
+using ZXH.ZentaoNotify.Core.Authorization.Roles;
+using ZXH.ZentaoNotify.Core.MultiTenancy;
 
-namespace ZXH.ZendaoNotify.Core.Authorization.Users
+namespace ZXH.ZentaoNotify.Core.Authorization.Users
 {
     public class UserRegistrationManager : DomainService
     {

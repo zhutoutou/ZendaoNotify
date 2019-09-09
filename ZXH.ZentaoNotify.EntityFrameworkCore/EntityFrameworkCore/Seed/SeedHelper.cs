@@ -4,10 +4,10 @@ using Abp.Domain.Uow;
 using Abp.EntityFrameworkCore.Uow;
 using Abp.MultiTenancy;
 using Microsoft.EntityFrameworkCore;
-using ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Host;
-using ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Tenants;
+using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Host;
+using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Tenants;
 
-namespace ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed{
+namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed{
     public class SeedHelper{
         public static void SeedHostDb(IIocResolver iocResolve){
             WithDbContext<ZendaoNotifyDbContext>(iocResolve,SeedHostDb);

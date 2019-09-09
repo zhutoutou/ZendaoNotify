@@ -3,9 +3,9 @@ using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
 using Abp.Linq;
 using Abp.Organizations;
-using ZXH.ZendaoNotify.Core.Authorization.Roles;
+using ZXH.ZentaoNotify.Core.Authorization.Roles;
 
-namespace ZXH.ZendaoNotify.Core.Authorization.Users
+namespace ZXH.ZentaoNotify.Core.Authorization.Users
 {
     public class UserStore : AbpUserStore<Role, User>
     {

@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Abp.Authorization.Roles;
-using ZXH.ZendaoNotify.Core.Authorization.Users;
+using ZXH.ZentaoNotify.Core.Authorization.Users;
 
-namespace ZXH.ZendaoNotify.Core.Authorization.Roles
+namespace ZXH.ZentaoNotify.Core.Authorization.Roles
 {
     public class Role : AbpRole<User>
     {

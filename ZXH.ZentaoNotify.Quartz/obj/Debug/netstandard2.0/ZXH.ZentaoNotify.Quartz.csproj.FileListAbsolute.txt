@@ -1,0 +1,9 @@
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Quartz\bin\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.deps.json
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Quartz\bin\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.dll
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Quartz\bin\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.pdb
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Quartz\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.csprojAssemblyReference.cache
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Quartz\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.csproj.CoreCompileInputs.cache
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Quartz\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.AssemblyInfoInputs.cache
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Quartz\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.AssemblyInfo.cs
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Quartz\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.dll
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Quartz\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.pdb

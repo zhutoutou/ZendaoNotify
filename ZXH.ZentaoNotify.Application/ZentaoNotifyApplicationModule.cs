@@ -1,9 +1,9 @@
 using Abp.Modules;
 using Abp.Reflection.Extensions;
-using ZXH.ZendaoNotify.Core;
-using ZXH.ZendaoNotify.Quartz;
+using ZXH.ZentaoNotify.Core;
+using ZXH.ZentaoNotify.Quartz;
 
-namespace ZXH.ZendaoNotify.Application
+namespace ZXH.ZentaoNotify.Application
 {
     [DependsOn(
         typeof(ZendaoNotifyCoreModule),

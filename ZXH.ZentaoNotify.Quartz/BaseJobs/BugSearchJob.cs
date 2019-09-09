@@ -1,11 +1,9 @@
-using Abp.Quartz;
-using Abp.Dependency;
-using Quartz;
 using System.Threading.Tasks;
-using System.Net;
-using System.Net.Http;
+using Abp.Dependency;
+using Abp.Quartz;
+using Quartz;
 
-namespace ZXH.ZendaoNotify.Quartz.BaseJobs
+namespace ZXH.ZentaoNotify.Quartz.BaseJobs
 {
     public class BugSearchJob : JobBase, ITransientDependency
     {

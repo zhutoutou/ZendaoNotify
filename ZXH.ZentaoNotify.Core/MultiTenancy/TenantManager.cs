@@ -1,10 +1,10 @@
 ﻿using Abp.Application.Features;
 using Abp.Domain.Repositories;
 using Abp.MultiTenancy;
-using ZXH.ZendaoNotify.Core.Authorization.Users;
-using ZXH.ZendaoNotify.Core.Editions;
+using ZXH.ZentaoNotify.Core.Authorization.Users;
+using ZXH.ZentaoNotify.Core.Editions;
 
-namespace ZXH.ZendaoNotify.Core.MultiTenancy
+namespace ZXH.ZentaoNotify.Core.MultiTenancy
 {
     public class TenantManager : AbpTenantManager<Tenant, User>
     {

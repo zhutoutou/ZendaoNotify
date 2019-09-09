@@ -12,10 +12,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore;
-using ZXH.ZendaoNotify.Web.Core.Configuration;
+using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore;
+using ZXH.ZentaoNotify.Web.Core.Configuration;
 
-namespace ZXH.ZendaoNotify.Host
+namespace ZXH.ZentaoNotify.Host
 {
     public class Startup
     {

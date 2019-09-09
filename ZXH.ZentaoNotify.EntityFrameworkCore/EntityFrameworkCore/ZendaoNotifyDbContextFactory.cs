@@ -1,13 +1,12 @@
 using Abp.Extensions;
-using IdentityServer4.Validation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
-using ZXH.ZendaoNotify.Core;
-using ZXH.ZendaoNotify.Core.Configuration;
-using ZXH.ZendaoNotify.Core.Web;
+using ZXH.ZentaoNotify.Core;
+using ZXH.ZentaoNotify.Core.Configuration;
+using ZXH.ZentaoNotify.Core.Web;
 
-namespace ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore
+namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore
 {
     public class ZendaoNotifyDbContextFactory : IDesignTimeDbContextFactory<ZendaoNotifyDbContext>
     {

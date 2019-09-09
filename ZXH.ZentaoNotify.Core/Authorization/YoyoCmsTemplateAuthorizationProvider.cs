@@ -2,7 +2,7 @@
 using Abp.Localization;
 using Abp.MultiTenancy;
 
-namespace ZXH.ZendaoNotify.Core.Authorization
+namespace ZXH.ZentaoNotify.Core.Authorization
 {
     public class YoyoCmsTemplateAuthorizationProvider : AuthorizationProvider
     {

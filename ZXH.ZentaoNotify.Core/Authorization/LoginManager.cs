@@ -7,11 +7,11 @@ using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
 using Abp.Zero.Configuration;
 using Microsoft.AspNetCore.Identity;
-using ZXH.ZendaoNotify.Core.Authorization.Roles;
-using ZXH.ZendaoNotify.Core.Authorization.Users;
-using ZXH.ZendaoNotify.Core.MultiTenancy;
+using ZXH.ZentaoNotify.Core.Authorization.Roles;
+using ZXH.ZentaoNotify.Core.Authorization.Users;
+using ZXH.ZentaoNotify.Core.MultiTenancy;
 
-namespace ZXH.ZendaoNotify.Core.Authorization
+namespace ZXH.ZentaoNotify.Core.Authorization
 {
     public class LogInManager : AbpLogInManager<Tenant, Role, User>
     {

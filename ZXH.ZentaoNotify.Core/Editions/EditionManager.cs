@@ -2,7 +2,7 @@
 using Abp.Application.Features;
 using Abp.Domain.Repositories;
 
-namespace ZXH.ZendaoNotify.Core.Editions
+namespace ZXH.ZentaoNotify.Core.Editions
 {
     public class EditionManager : AbpEditionManager
     {

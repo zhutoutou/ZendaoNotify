@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using Abp.Authorization;
 using Abp.Authorization.Roles;
-using Abp.Authorization.Users;
 using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
 using Abp.Organizations;
@@ -9,9 +8,9 @@ using Abp.Runtime.Caching;
 using Abp.Zero.Configuration;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
-using ZXH.ZendaoNotify.Core.Authorization.Users;
+using ZXH.ZentaoNotify.Core.Authorization.Users;
 
-namespace ZXH.ZendaoNotify.Core.Authorization.Roles
+namespace ZXH.ZentaoNotify.Core.Authorization.Roles
 {
     public class RoleManager : AbpRoleManager<Role, User>
     {

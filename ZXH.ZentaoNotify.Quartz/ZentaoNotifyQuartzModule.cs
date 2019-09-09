@@ -1,11 +1,10 @@
-using System;
 using Abp.Modules;
 using Abp.Quartz;
 using Abp.Reflection.Extensions;
 using Quartz;
-using ZXH.ZendaoNotify.Quartz.BaseJobs;
+using ZXH.ZentaoNotify.Quartz.BaseJobs;
 
-namespace ZXH.ZendaoNotify.Quartz
+namespace ZXH.ZentaoNotify.Quartz
 {
     [DependsOn(typeof(AbpQuartzModule))]
     public class ZendaoNotifyQuartzModule : AbpModule

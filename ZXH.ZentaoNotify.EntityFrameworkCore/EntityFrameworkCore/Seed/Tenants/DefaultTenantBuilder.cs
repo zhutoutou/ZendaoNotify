@@ -1,10 +1,10 @@
 using System.Linq;
 using Abp.MultiTenancy;
 using Microsoft.EntityFrameworkCore;
-using ZXH.ZendaoNotify.Core.Editions;
-using ZXH.ZendaoNotify.Core.MultiTenancy;
+using ZXH.ZentaoNotify.Core.Editions;
+using ZXH.ZentaoNotify.Core.MultiTenancy;
 
-namespace ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Tenants
+namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Tenants
 {
     public class DefaultTenantBuilder
     {

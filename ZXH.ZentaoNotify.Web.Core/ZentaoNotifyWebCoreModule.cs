@@ -5,10 +5,10 @@ using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using ZXH.ZendaoNotify.Application;
-using ZXH.ZendaoNotify.Web.Core.Configuration;
+using ZXH.ZentaoNotify.Application;
+using ZXH.ZentaoNotify.Web.Core.Configuration;
 
-namespace ZXH.ZendaoNotify.Web.Core
+namespace ZXH.ZentaoNotify.Web.Core
 {
     [DependsOn(
         typeof(ZendaoNotifyApplicationModule),

@@ -2,10 +2,10 @@ using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Abp.Timing;
 using Abp.Zero;
-using ZXH.ZendaoNotify.Core.Configuration;
-using ZXH.ZendaoNotify.Core.Timing;
+using ZXH.ZentaoNotify.Core.Configuration;
+using ZXH.ZentaoNotify.Core.Timing;
 
-namespace ZXH.ZendaoNotify.Core
+namespace ZXH.ZentaoNotify.Core
 {
     [DependsOn(typeof(AbpZeroCoreModule))]
     public class ZendaoNotifyCoreModule : AbpModule

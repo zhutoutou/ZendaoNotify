@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZendaoNotify.Host", "ZXH.ZendaoNotify.Host\ZXH.ZendaoNotify.Host.csproj", "{E154B182-A7B5-448C-AB9A-5E162DC28758}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZentaoNotify.Host", "ZXH.ZentaoNotify.Host\ZXH.ZentaoNotify.Host.csproj", "{E154B182-A7B5-448C-AB9A-5E162DC28758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZendaoNotify.Web.Core", "ZXH.ZendaoNotify.Web.Core\ZXH.ZendaoNotify.Web.Core.csproj", "{CFAD0657-67E7-45DD-B82C-E3E27241FE1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZentaoNotify.Web.Core", "ZXH.ZentaoNotify.Web.Core\ZXH.ZentaoNotify.Web.Core.csproj", "{CFAD0657-67E7-45DD-B82C-E3E27241FE1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZendaoNotify.Core", "ZXH.ZendaoNotify.Core\ZXH.ZendaoNotify.Core.csproj", "{5EAC2490-6C0D-434C-B9AD-3096FE645127}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZentaoNotify.Core", "ZXH.ZentaoNotify.Core\ZXH.ZentaoNotify.Core.csproj", "{5EAC2490-6C0D-434C-B9AD-3096FE645127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZendaoNotify.Application", "ZXH.ZendaoNotify.Application\ZXH.ZendaoNotify.Application.csproj", "{DB79FFB8-CC01-4A54-8C39-11E2020B5CAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZentaoNotify.Application", "ZXH.ZentaoNotify.Application\ZXH.ZentaoNotify.Application.csproj", "{DB79FFB8-CC01-4A54-8C39-11E2020B5CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZendaoNotify.Quartz", "ZXH.ZendaoNotify.Quartz\ZXH.ZendaoNotify.Quartz.csproj", "{BC3D6A47-ADF8-499D-A079-A854AA335AE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZentaoNotify.Quartz", "ZXH.ZentaoNotify.Quartz\ZXH.ZentaoNotify.Quartz.csproj", "{BC3D6A47-ADF8-499D-A079-A854AA335AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZendaoNotify.EntityFrameworkCore", "ZXH.ZendaoNotify.EntityFrameworkCore\ZXH.ZendaoNotify.EntityFrameworkCore.csproj", "{5DEE9CB5-EF0D-4952-92A0-593307CA2253}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXH.ZentaoNotify.EntityFrameworkCore", "ZXH.ZentaoNotify.EntityFrameworkCore\ZXH.ZentaoNotify.EntityFrameworkCore.csproj", "{5DEE9CB5-EF0D-4952-92A0-593307CA2253}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

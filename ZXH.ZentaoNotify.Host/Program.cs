@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace ZXH.ZendaoNotify.Host
+namespace ZXH.ZentaoNotify.Host
 {
     public class Program
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Abp.Configuration;
 
-namespace ZXH.ZendaoNotify.Core.Configuration
+namespace ZXH.ZentaoNotify.Core.Configuration
 {
     public class AppSettingProvider : SettingProvider
     {

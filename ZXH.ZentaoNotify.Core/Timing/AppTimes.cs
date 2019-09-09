@@ -1,7 +1,7 @@
 using System;
 using Abp.Dependency;
 
-namespace ZXH.ZendaoNotify.Core.Timing
+namespace ZXH.ZentaoNotify.Core.Timing
 {
     public class AppTimes : ISingletonDependency
     {

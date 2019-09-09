@@ -1,10 +1,10 @@
-using Abp.Modules;
-using Abp.Dependency;
 using Abp.EntityFrameworkCore.Configuration;
-using ZXH.ZendaoNotify.Core;
+using Abp.Modules;
 using Abp.Reflection.Extensions;
+using ZXH.ZentaoNotify.Core;
+using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore;
 
-namespace ZXH.ZendaoNotify.EntityFrameworkCore.EntityFrameworkCore
+namespace ZXH.ZentaoNotify.EntityFrameworkCore
 {
     public class ZendaoNotifyEntityFrameworkModule : AbpModule
     {

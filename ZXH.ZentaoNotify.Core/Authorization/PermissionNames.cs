@@ -1,4 +1,4 @@
-﻿namespace ZXH.ZendaoNotify.Core.Authorization
+﻿namespace ZXH.ZentaoNotify.Core.Authorization
 {
     public static class PermissionNames
     {
