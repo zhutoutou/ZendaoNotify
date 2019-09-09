@@ -8,9 +8,9 @@ namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Tenants
 {
     public class DefaultTenantBuilder
     {
-        private readonly ZendaoNotifyDbContext _context;
+        private readonly ZentaoNotifyDbContext _context;
 
-        public DefaultTenantBuilder(ZendaoNotifyDbContext context)
+        public DefaultTenantBuilder(ZentaoNotifyDbContext context)
         {
             _context = context;
         }

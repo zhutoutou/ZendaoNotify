@@ -6,7 +6,7 @@ using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore;
 
 namespace ZXH.ZentaoNotify.EntityFrameworkCore
 {
-    public class ZendaoNotifyEntityFrameworkModule : AbpModule
+    public class ZentaoNotifyEntityFrameworkModule : AbpModule
     {
         public bool SkipDbContextRegistration { get; set; }
         public bool SkipDbContextSeed { get; set; }
@@ -16,18 +16,18 @@ namespace ZXH.ZentaoNotify.EntityFrameworkCore
         {
             if (!SkipDbContextRegistration)
             {
-                Configuration.Modules.AbpEfCore().AddDbContext<ZendaoNotifyDbContext>(options =>
+                Configuration.Modules.AbpEfCore().AddDbContext<ZentaoNotifyDbContext>(options =>
                 {
                     if (options.ExistingConnection != null)
                     {
-                        ZendaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ExistingConnection);
+                        ZentaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ExistingConnection);
                     }
                     else
                     {
                         if(IsTestInMemory)
-                            ZendaoNotifyDbContextConfigure.ConfigureInMemory(options.DbContextOptions,ZendaoNotifyConstants.LocalizationSourceName);
+                            ZentaoNotifyDbContextConfigure.ConfigureInMemory(options.DbContextOptions,ZentaoNotifyConstants.LocalizationSourceName);
                         else
-                            ZendaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ConnectionString);
+                            ZentaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ConnectionString);
                     }
                 });
             }
@@ -35,7 +35,7 @@ namespace ZXH.ZentaoNotify.EntityFrameworkCore
 
         public override void Initialize()
         {
-            IocManager.RegisterAssemblyByConvention(typeof(ZendaoNotifyEntityFrameworkModule).GetAssembly());
+            IocManager.RegisterAssemblyByConvention(typeof(ZentaoNotifyEntityFrameworkModule).GetAssembly());
         }
 
         public override void PostInitialize()

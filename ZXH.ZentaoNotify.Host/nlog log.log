@@ -9,3 +9,12 @@
    at NLog.Config.Factory`2.CreateInstance(String itemName)
    at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
 2019-09-05 11:20:19.2005 Warn Attempt #0 to open E:\GitHub\ZendaoNotify\ZXH.ZendaoNotify.Host\bin\Debug\netcoreapp2.2\log.log failed. Sleeping for 0ms
+2019-09-09 17:57:16.8165 Error Error parsing layout NormalLayout will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'NormalLayout'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2019-09-09 18:00:55.2675 Error Error parsing layout NormalLayout will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'NormalLayout'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2019-09-09 18:07:41.3596 Error Error parsing layout NormalLayout will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'NormalLayout'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)

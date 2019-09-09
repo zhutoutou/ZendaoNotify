@@ -7,18 +7,18 @@ using ZXH.ZentaoNotify.Quartz.BaseJobs;
 namespace ZXH.ZentaoNotify.Quartz
 {
     [DependsOn(typeof(AbpQuartzModule))]
-    public class ZendaoNotifyQuartzModule : AbpModule
+    public class ZentaoNotifyQuartzModule : AbpModule
     {
         public override void PreInitialize(){
             
         }
         public override void Initialize(){
-            IocManager.RegisterAssemblyByConvention(typeof(ZendaoNotifyQuartzModule).GetAssembly());
+            IocManager.RegisterAssemblyByConvention(typeof(ZentaoNotifyQuartzModule).GetAssembly());
         }
         public override async void PostInitialize(){
             var  quartzManager = IocManager.Resolve<IQuartzScheduleJobManager>();
             await quartzManager.ScheduleAsync<BugSearchJob>(job=>{
-                job.WithIdentity("BugSearchJobIdentity","ZendaoGroup")
+                job.WithIdentity("BugSearchJobIdentity","ZentaoGroup")
                     .WithDescription("A job to simply write logs.");
             },
             trigger=>{

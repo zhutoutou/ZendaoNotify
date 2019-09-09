@@ -8,12 +8,12 @@ using ZXH.ZentaoNotify.Web.Core.Configuration;
 namespace ZXH.ZentaoNotify.Host
 {
     [DependsOn(
-        typeof(ZendaoNotifyCoreModule))]
-    public class ZendaoNotifyModule : AbpModule
+        typeof(ZentaoNotifyCoreModule))]
+    public class ZentaoNotifyModule : AbpModule
     {
         private readonly IHostingEnvironment _env;
         private readonly IConfigurationRoot _appConfiguration;
-        public ZendaoNotifyModule(IHostingEnvironment env)
+        public ZentaoNotifyModule(IHostingEnvironment env)
         {
             _env = env;
             _appConfiguration = env.GetAppConfiguration();
@@ -26,7 +26,7 @@ namespace ZXH.ZentaoNotify.Host
 
         public override void Initialize()
         {
-            IocManager.RegisterAssemblyByConvention(typeof(ZendaoNotifyModule).GetAssembly());
+            IocManager.RegisterAssemblyByConvention(typeof(ZentaoNotifyModule).GetAssembly());
         }
 
         public override void PostInitialize()

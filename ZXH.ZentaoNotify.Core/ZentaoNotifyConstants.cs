@@ -1,6 +1,6 @@
 ﻿namespace ZXH.ZentaoNotify.Core
 {
-    public class ZendaoNotifyConstants
+    public class ZentaoNotifyConstants
     {
         public const string LocalizationSourceName = "ZendaoNotify";
 
