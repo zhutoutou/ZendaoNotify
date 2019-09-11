@@ -1,3 +1,5 @@
+using System.Diagnostics;
+using Abp.Domain.Entities.Auditing;
 using Abp.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
@@ -14,17 +16,8 @@ namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore
         {
             var builder = new DbContextOptionsBuilder<ZentaoNotifyDbContext>();
             var configuration = AppConfigurations.Get(WebContentDirectoryFinder.CalculateContentRootFolder());
-
             var connectString = configuration.GetConnectionString(ZentaoNotifyConstants.ConnectionStringName);
-            if (connectString.IsNullOrWhiteSpace())
-            {
-                ZentaoNotifyDbContextConfigure.ConfigureInMemory(builder, ZentaoNotifyConstants.MemoryDatabaseDefaultName);
-            }
-            else
-            {
-                ZentaoNotifyDbContextConfigure.Configure(builder, connectString);
-
-            }
+            ZentaoNotifyDbContextConfigure.Configure(builder, connectString);
             return new ZentaoNotifyDbContext(builder.Options);
         }
     }

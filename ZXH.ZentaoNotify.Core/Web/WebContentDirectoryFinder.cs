@@ -16,7 +16,7 @@ namespace ZXH.ZentaoNotify.Core.Web
             }
 
             var directoryInfo = new DirectoryInfo(coreAssemblyDirectoryPath);
-            while (!DirectoryContains(directoryInfo.FullName, "ZentaoNotify.sln"))
+            while (!DirectoryContains(directoryInfo.FullName, "ZXH.ZentaoNotify.sln"))
             {
                 if (directoryInfo.Parent == null)
                 {
@@ -26,13 +26,13 @@ namespace ZXH.ZentaoNotify.Core.Web
                 directoryInfo = directoryInfo.Parent;
             }
 
-            var webMvcFolder = Path.Combine(directoryInfo.FullName, "ZentaoNotify.Web.Core");
+            var webMvcFolder = Path.Combine(directoryInfo.FullName, "ZXH.ZentaoNotify.Web.MVC");
             if (Directory.Exists(webMvcFolder))
             {
                 return webMvcFolder;
             }
 
-            var webHostFolder = Path.Combine(directoryInfo.FullName, "ZentaoNotify.Host");
+            var webHostFolder = Path.Combine(directoryInfo.FullName, "ZXH.ZentaoNotify.Host");
             if (Directory.Exists(webHostFolder))
             {
                 return webHostFolder;

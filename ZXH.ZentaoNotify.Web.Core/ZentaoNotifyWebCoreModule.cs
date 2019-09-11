@@ -6,12 +6,14 @@ using Abp.Reflection.Extensions;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using ZXH.ZentaoNotify.Application;
+using ZXH.ZentaoNotify.EntityFrameworkCore;
 using ZXH.ZentaoNotify.Web.Core.Configuration;
 
 namespace ZXH.ZentaoNotify.Web.Core
 {
     [DependsOn(
         typeof(ZentaoNotifyApplicationModule),
+        typeof(ZentaoNotifyEntityFrameworkModule),
         typeof(AbpAspNetCoreModule)
     )]
     public class ZentaoNotifyWebCoreModule : AbpModule

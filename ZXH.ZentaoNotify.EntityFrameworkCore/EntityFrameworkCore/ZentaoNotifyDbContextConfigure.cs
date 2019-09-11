@@ -15,11 +15,5 @@ namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore
         {
             builder.UseMySql(connection);
         }
-
-        public static void ConfigureInMemory(DbContextOptionsBuilder<ZentaoNotifyDbContext> builder,
-            string databaseName)
-        {
-            builder.UseInMemoryDatabase(databaseName);
-        }
     }
 }

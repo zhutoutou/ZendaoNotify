@@ -2,13 +2,13 @@ using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using ZXH.ZentaoNotify.Core;
+using ZXH.ZentaoNotify.Web.Core;
 using ZXH.ZentaoNotify.Web.Core.Configuration;
 
 namespace ZXH.ZentaoNotify.Host
 {
     [DependsOn(
-        typeof(ZentaoNotifyCoreModule))]
+        typeof(ZentaoNotifyWebCoreModule))]
     public class ZentaoNotifyModule : AbpModule
     {
         private readonly IHostingEnvironment _env;

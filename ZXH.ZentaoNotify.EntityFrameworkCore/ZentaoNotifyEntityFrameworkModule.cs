@@ -1,10 +1,8 @@
-using System.Configuration;
-using System.Linq;
 using Abp.EntityFrameworkCore.Configuration;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
+using Abp.Zero.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.Extensions.Configuration;
 using ZXH.ZentaoNotify.Core;
 using ZXH.ZentaoNotify.Core.Configuration;
@@ -13,16 +11,17 @@ using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed;
 
 namespace ZXH.ZentaoNotify.EntityFrameworkCore
 {
+    [DependsOn(
+        typeof(ZentaoNotifyCoreModule),
+        typeof(AbpZeroCoreEntityFrameworkCoreModule))]
     public class ZentaoNotifyEntityFrameworkModule : AbpModule
     {
         private readonly IHostingEnvironment _env;
-        private readonly IConfigurationRoot _appConfiguration;
         public bool SkipDbContextRegistration { get; set; }
         public bool SkipDbContextSeed { get; set; }
 
         public ZentaoNotifyEntityFrameworkModule(IHostingEnvironment env){
             _env = env;
-            _appConfiguration = AppConfigurations.Get(env.ContentRootPath,env.EnvironmentName,env.IsDevelopment());
         }
         public override void PreInitialize()
         {
@@ -36,12 +35,7 @@ namespace ZXH.ZentaoNotify.EntityFrameworkCore
                     }
                     else
                     {
-                        if (!ConfigurationManager.ConnectionStrings.Any()){
-                            Configuration.DefaultNameOrConnectionString = ZentaoNotifyConstants.DefaultMemoryConnectionString;
-                            ZentaoNotifyDbContextConfigure.ConfigureInMemory(options.DbContextOptions, ZentaoNotifyConstants.LocalizationSourceName);
-                        }
-                        else
-                            ZentaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ConnectionString);
+                        ZentaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ConnectionString);
                     }
                 });
             }

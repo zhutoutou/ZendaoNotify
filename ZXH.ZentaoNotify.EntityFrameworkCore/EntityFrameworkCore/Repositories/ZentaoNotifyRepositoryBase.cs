@@ -1,9 +1,8 @@
 using Abp.Domain.Entities;
 using Abp.EntityFrameworkCore;
 using Abp.EntityFrameworkCore.Repositories;
-using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore;
 
-namespace ZXH.ZentaoNotify.EntityframeworkCore.EntityFrameworkCore.Repositories
+namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Repositories
 {
     /// <summary>
     /// Base class for custom repositories of the application.
