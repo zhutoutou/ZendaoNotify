@@ -32,8 +32,6 @@ namespace ZXH.ZentaoNotify.Host
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            services.AddEntityFrameworkInMemoryDatabase()
-                .AddDbContext<ZentaoNotifyDbContext>((sp, options) => { options.UseInMemoryDatabase(); });
             services.AddMvc(options =>
                 options.Filters.Add(new CorsAuthorizationFilterFactory(DefaultCorsPolicyName)))
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

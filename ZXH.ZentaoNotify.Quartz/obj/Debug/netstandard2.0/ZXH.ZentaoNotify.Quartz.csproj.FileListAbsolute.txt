@@ -6,3 +6,4 @@
 /Users/zhuxinghan/Desktop/CPC/Tools/ZentaoNotify/ZXH.ZentaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZentaoNotify.Quartz.AssemblyInfo.cs
 /Users/zhuxinghan/Desktop/CPC/Tools/ZentaoNotify/ZXH.ZentaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZentaoNotify.Quartz.dll
 /Users/zhuxinghan/Desktop/CPC/Tools/ZentaoNotify/ZXH.ZentaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZentaoNotify.Quartz.pdb
+/Users/zhuxinghan/Desktop/CPC/Tools/ZentaoNotify/ZXH.ZentaoNotify.Quartz/obj/Debug/netstandard2.0/ZXH.ZentaoNotify.Quartz.csprojAssemblyReference.cache
