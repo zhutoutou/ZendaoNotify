@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ZXH.ZendaoNotify.Host/ZXH.ZendaoNotify.Host.csproj",
+                "${workspaceFolder}/ZXH.ZentaoNotify.Host/ZXH.ZentaoNotify.Host.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/ZXH.ZendaoNotify.Host/ZXH.ZendaoNotify.Host.csproj",
+                "${workspaceFolder}/ZXH.ZentaoNotify.Host/ZXH.ZentaoNotify.Host.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/ZXH.ZendaoNotify.Host/ZXH.ZendaoNotify.Host.csproj",
+                "${workspaceFolder}/ZXH.ZentaoNotify.Host/ZXH.ZentaoNotify.Host.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

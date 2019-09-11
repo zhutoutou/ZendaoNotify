@@ -32,8 +32,6 @@ namespace ZXH.ZentaoNotify.Host
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            services.AddEntityFrameworkInMemoryDatabase()
-                .AddDbContext<ZendaoNotifyDbContext>((sp, options) => { options.UseInMemoryDatabase(); });
             services.AddMvc(options =>
                 options.Filters.Add(new CorsAuthorizationFilterFactory(DefaultCorsPolicyName)))
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -67,7 +65,7 @@ namespace ZXH.ZentaoNotify.Host
                 // Post process the generated document
                 document.PostProcess = d =>
                 {
-                    d.Info.Title = "Zendao Notify";
+                    d.Info.Title = "Zentao Notify";
                     d.Info.Description = "To be better";
                 };
             });
@@ -75,7 +73,7 @@ namespace ZXH.ZentaoNotify.Host
             services.AddOpenApiDocument(
                 document => document.DocumentName = "openapi");
 
-            return services.AddAbp<ZendaoNotifyModule>(
+            return services.AddAbp<ZentaoNotifyModule>(
                 options => options.IocManager.IocContainer.AddFacility<LoggingFacility>(
                     f => f.LogUsing<NLogFactory>().WithConfig("nlog.config")
                 )

@@ -9,14 +9,14 @@ namespace ZXH.ZentaoNotify.Core.Web
     {
         public static string CalculateContentRootFolder()
         {
-            var coreAssemblyDirectoryPath = Path.GetDirectoryName(typeof(ZendaoNotifyCoreModule).GetAssembly().Location);
+            var coreAssemblyDirectoryPath = Path.GetDirectoryName(typeof(ZentaoNotifyCoreModule).GetAssembly().Location);
             if (coreAssemblyDirectoryPath == null)
             {
-                throw new Exception("Could not find location of ZendaoNotify.Core assembly!");
+                throw new Exception("Could not find location of ZentaoNotify.Core assembly!");
             }
 
             var directoryInfo = new DirectoryInfo(coreAssemblyDirectoryPath);
-            while (!DirectoryContains(directoryInfo.FullName, "ZendaoNotify.sln"))
+            while (!DirectoryContains(directoryInfo.FullName, "ZentaoNotify.sln"))
             {
                 if (directoryInfo.Parent == null)
                 {
@@ -26,13 +26,13 @@ namespace ZXH.ZentaoNotify.Core.Web
                 directoryInfo = directoryInfo.Parent;
             }
 
-            var webMvcFolder = Path.Combine(directoryInfo.FullName, "ZendaoNotify.Web.Core");
+            var webMvcFolder = Path.Combine(directoryInfo.FullName, "ZentaoNotify.Web.Core");
             if (Directory.Exists(webMvcFolder))
             {
                 return webMvcFolder;
             }
 
-            var webHostFolder = Path.Combine(directoryInfo.FullName, "ZendaoNotify.Host");
+            var webHostFolder = Path.Combine(directoryInfo.FullName, "ZentaoNotify.Host");
             if (Directory.Exists(webHostFolder))
             {
                 return webHostFolder;

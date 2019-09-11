@@ -11,14 +11,14 @@ using ZXH.ZentaoNotify.Web.Core.Configuration;
 namespace ZXH.ZentaoNotify.Web.Core
 {
     [DependsOn(
-        typeof(ZendaoNotifyApplicationModule),
+        typeof(ZentaoNotifyApplicationModule),
         typeof(AbpAspNetCoreModule)
     )]
-    public class ZendaoNotifyWebCoreModule : AbpModule
+    public class ZentaoNotifyWebCoreModule : AbpModule
     {
         private readonly IHostingEnvironment _env;
         private readonly IConfigurationRoot _appConfiguration;
-        public ZendaoNotifyWebCoreModule(IHostingEnvironment env)
+        public ZentaoNotifyWebCoreModule(IHostingEnvironment env)
         {
             _env = env;
             _appConfiguration = env.GetAppConfiguration();
@@ -39,13 +39,13 @@ namespace ZXH.ZentaoNotify.Web.Core
 
             Configuration.Modules.AbpAspNetCore()
                 .CreateControllersForAppServices(
-                    typeof(ZendaoNotifyWebCoreModule).GetAssembly()
+                    typeof(ZentaoNotifyWebCoreModule).GetAssembly()
                 );
         }
 
         public override void Initialize()
         {
-            IocManager.RegisterAssemblyByConvention(typeof(ZendaoNotifyWebCoreModule).GetAssembly());
+            IocManager.RegisterAssemblyByConvention(typeof(ZentaoNotifyWebCoreModule).GetAssembly());
         }
 
         public override void PostInitialize()

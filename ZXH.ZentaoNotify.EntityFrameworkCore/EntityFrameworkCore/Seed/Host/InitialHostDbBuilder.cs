@@ -2,9 +2,9 @@ namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Host
 {
     public class InitialHostDbBuilder
     {
-        private readonly ZendaoNotifyDbContext _context;
+        private readonly ZentaoNotifyDbContext _context;
 
-        public InitialHostDbBuilder(ZendaoNotifyDbContext context)
+        public InitialHostDbBuilder(ZentaoNotifyDbContext context)
         {
             _context = context;
         }

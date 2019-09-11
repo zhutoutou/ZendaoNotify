@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZendaoNotify/ZXH.ZendaoNotify.Host/ZXH.ZendaoNotify.Host.csproj",
+  "FilePath": "/Users/zhuxinghan/Desktop/CPC/Tools/ZentaoNotify/ZXH.ZentaoNotify.Host/ZXH.ZentaoNotify.Host.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2958,7 +2958,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "ZXH.ZendaoNotify.Host",
+  "RootNamespace": "ZXH.ZentaoNotify.Host",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

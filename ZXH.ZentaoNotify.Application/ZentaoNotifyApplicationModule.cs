@@ -6,10 +6,10 @@ using ZXH.ZentaoNotify.Quartz;
 namespace ZXH.ZentaoNotify.Application
 {
     [DependsOn(
-        typeof(ZendaoNotifyCoreModule),
-        typeof(ZendaoNotifyQuartzModule))]
-    public class ZendaoNotifyApplicationModule:AbpModule
+        typeof(ZentaoNotifyCoreModule),
+        typeof(ZentaoNotifyQuartzModule))]
+    public class ZentaoNotifyApplicationModule:AbpModule
     {
-        public override void Initialize()=> IocManager.RegisterAssemblyByConvention(typeof(ZendaoNotifyApplicationModule).GetAssembly());
+        public override void Initialize()=> IocManager.RegisterAssemblyByConvention(typeof(ZentaoNotifyApplicationModule).GetAssembly());
     }
 }

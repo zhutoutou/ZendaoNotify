@@ -10,10 +10,10 @@ using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed.Tenants;
 namespace ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed{
     public class SeedHelper{
         public static void SeedHostDb(IIocResolver iocResolve){
-            WithDbContext<ZendaoNotifyDbContext>(iocResolve,SeedHostDb);
+            WithDbContext<ZentaoNotifyDbContext>(iocResolve,SeedHostDb);
         }
 
-        public static void SeedHostDb(ZendaoNotifyDbContext context){
+        public static void SeedHostDb(ZentaoNotifyDbContext context){
             context.SuppressAutoSetTenantId = true;
 
             // Host Seed

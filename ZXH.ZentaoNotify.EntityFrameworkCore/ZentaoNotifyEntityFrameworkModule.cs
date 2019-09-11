@@ -1,33 +1,47 @@
+using System.Configuration;
+using System.Linq;
 using Abp.EntityFrameworkCore.Configuration;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore.Internal;
+using Microsoft.Extensions.Configuration;
 using ZXH.ZentaoNotify.Core;
+using ZXH.ZentaoNotify.Core.Configuration;
 using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore;
+using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed;
 
 namespace ZXH.ZentaoNotify.EntityFrameworkCore
 {
-    public class ZendaoNotifyEntityFrameworkModule : AbpModule
+    public class ZentaoNotifyEntityFrameworkModule : AbpModule
     {
+        private readonly IHostingEnvironment _env;
+        private readonly IConfigurationRoot _appConfiguration;
         public bool SkipDbContextRegistration { get; set; }
         public bool SkipDbContextSeed { get; set; }
 
-        public bool IsTestInMemory {get;set;}
+        public ZentaoNotifyEntityFrameworkModule(IHostingEnvironment env){
+            _env = env;
+            _appConfiguration = AppConfigurations.Get(env.ContentRootPath,env.EnvironmentName,env.IsDevelopment());
+        }
         public override void PreInitialize()
         {
             if (!SkipDbContextRegistration)
             {
-                Configuration.Modules.AbpEfCore().AddDbContext<ZendaoNotifyDbContext>(options =>
+                Configuration.Modules.AbpEfCore().AddDbContext<ZentaoNotifyDbContext>(options =>
                 {
                     if (options.ExistingConnection != null)
                     {
-                        ZendaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ExistingConnection);
+                        ZentaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ExistingConnection);
                     }
                     else
                     {
-                        if(IsTestInMemory)
-                            ZendaoNotifyDbContextConfigure.ConfigureInMemory(options.DbContextOptions,ZendaoNotifyConstants.LocalizationSourceName);
+                        if (!ConfigurationManager.ConnectionStrings.Any()){
+                            Configuration.DefaultNameOrConnectionString = ZentaoNotifyConstants.DefaultMemoryConnectionString;
+                            ZentaoNotifyDbContextConfigure.ConfigureInMemory(options.DbContextOptions, ZentaoNotifyConstants.LocalizationSourceName);
+                        }
                         else
-                            ZendaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ConnectionString);
+                            ZentaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ConnectionString);
                     }
                 });
             }
@@ -35,13 +49,14 @@ namespace ZXH.ZentaoNotify.EntityFrameworkCore
 
         public override void Initialize()
         {
-            IocManager.RegisterAssemblyByConvention(typeof(ZendaoNotifyEntityFrameworkModule).GetAssembly());
+            IocManager.RegisterAssemblyByConvention(typeof(ZentaoNotifyEntityFrameworkModule).GetAssembly());
         }
 
         public override void PostInitialize()
         {
-            if(!SkipDbContextSeed){
-                
+            if (!SkipDbContextSeed)
+            {
+                SeedHelper.SeedHostDb(IocManager);
             }
         }
     }
