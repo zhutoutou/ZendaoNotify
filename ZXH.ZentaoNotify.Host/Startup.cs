@@ -8,11 +8,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Cors.Internal;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore;
+using Quartz.Logging;
 using ZXH.ZentaoNotify.Web.Core.Configuration;
 
 namespace ZXH.ZentaoNotify.Host
@@ -22,8 +21,7 @@ namespace ZXH.ZentaoNotify.Host
         private readonly IConfigurationRoot _appConfiguration;
         private const string DefaultCorsPolicyName = "localhost";
         public Startup(
-            IHostingEnvironment env,
-            IConfiguration configuration)
+            IHostingEnvironment env)
         {
             _appConfiguration = env.GetAppConfiguration();
         }
@@ -32,9 +30,9 @@ namespace ZXH.ZentaoNotify.Host
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc(options =>
-                options.Filters.Add(new CorsAuthorizationFilterFactory(DefaultCorsPolicyName)))
-                    .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc(
+                    options => options.Filters.Add(new CorsAuthorizationFilterFactory(DefaultCorsPolicyName)))
+                .SetCompatibilityVersion(CompatibilityVersion.Latest);
 
             services.AddEntityFrameworkInMemoryDatabase();
 
@@ -56,8 +54,8 @@ namespace ZXH.ZentaoNotify.Host
 
             services.AddSwaggerDocument(document =>
             {
-                document.DocumentName = "nswg";
-                
+                document.DocumentName = "NSwag";
+
                 #region OAuth2
 
                 #endregion
@@ -71,23 +69,24 @@ namespace ZXH.ZentaoNotify.Host
             });
             // Register a OpenAPI v3.0 document generator
             services.AddOpenApiDocument(
-                document => document.DocumentName = "openapi");
+                document => document.DocumentName = "OpenAPI");
 
             return services.AddAbp<ZentaoNotifyModule>(
                 options => options.IocManager.IocContainer.AddFacility<LoggingFacility>(
-                    f => f.LogUsing<NLogFactory>().WithConfig("nlog.config")
+                    f => f.LogUsing<NLogFactory>().WithConfig("NLog.config")
                 )
             );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env,ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             // Initializes Abp framework
             app.UseAbp(options => { options.UseAbpRequestLocalization = false; });
 
             // Enable CORS!
             app.UseCors();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -99,7 +98,17 @@ namespace ZXH.ZentaoNotify.Host
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    "defaultWithArea",
+                    "{area}/{controller}/{action}/{id?}");
+
+                routes.MapRoute(
+                    "default",
+                    "{controller=Home}/{action=Index}/{id?}");
+            });
 
             #region Swagger Middleware
             //// Add OpenAPI/Swagger middleware to serve documents and web UIs
@@ -110,8 +119,8 @@ namespace ZXH.ZentaoNotify.Host
             // - http://localhost:5000/swagger
 
             #region Location Route
-            
-            // Add Swagger 2.0 document serving middlerware
+
+            // Add Swagger 2.0 document serving middleware
             app.UseOpenApi();
 
             // Add web UIs to interact with the document
@@ -133,6 +142,7 @@ namespace ZXH.ZentaoNotify.Host
             });
 
             #endregion
+
             #endregion
 
         }

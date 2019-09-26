@@ -46,7 +46,6 @@ E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\bin\Debug\netcoreapp2.2\ZXH.ZentaoN
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\bin\Debug\netcoreapp2.2\ZXH.ZentaoNotify.EntityFrameworkCore.pdb
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\bin\Debug\netcoreapp2.2\ZXH.ZentaoNotify.Quartz.pdb
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZentaoNotify.Host.csprojAssemblyReference.cache
-E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZentaoNotify.Host.csproj.CoreCompileInputs.cache
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZentaoNotify.Host.RazorAssemblyInfo.cache
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZentaoNotify.Host.RazorAssemblyInfo.cs
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZentaoNotify.Host.AssemblyInfoInputs.cache
@@ -56,3 +55,4 @@ E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZentaoN
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZentaoNotify.Host.dll
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZentaoNotify.Host.xml
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\obj\Debug\netcoreapp2.2\ZXH.ZentaoNotify.Host.pdb
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Host\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

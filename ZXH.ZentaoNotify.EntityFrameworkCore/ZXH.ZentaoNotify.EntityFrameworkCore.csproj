@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
     <ProjectReference Include="..\ZXH.ZentaoNotify.Core\ZXH.ZentaoNotify.Core.csproj" />
@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Abp.ZeroCore.IdentityServer4.EntityFrameworkCore" Version="4.9.0" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.1-preview1-final" />
   </ItemGroup>
 
   <PropertyGroup>

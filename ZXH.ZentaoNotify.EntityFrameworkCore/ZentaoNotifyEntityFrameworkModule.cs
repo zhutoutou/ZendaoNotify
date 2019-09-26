@@ -3,9 +3,8 @@ using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Abp.Zero.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
+using System.Configuration;
 using ZXH.ZentaoNotify.Core;
-using ZXH.ZentaoNotify.Core.Configuration;
 using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore;
 using ZXH.ZentaoNotify.EntityFrameworkCore.EntityFrameworkCore.Seed;
 
@@ -29,6 +28,7 @@ namespace ZXH.ZentaoNotify.EntityFrameworkCore
             {
                 Configuration.Modules.AbpEfCore().AddDbContext<ZentaoNotifyDbContext>(options =>
                 {
+                    
                     if (options.ExistingConnection != null)
                     {
                         ZentaoNotifyDbContextConfigure.Configure(options.DbContextOptions, options.ExistingConnection);

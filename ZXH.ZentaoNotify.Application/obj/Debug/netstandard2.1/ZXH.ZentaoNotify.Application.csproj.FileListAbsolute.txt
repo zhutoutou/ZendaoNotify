@@ -1,0 +1,13 @@
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.Application.deps.json
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.Application.dll
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.Application.pdb
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.Core.dll
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.Quartz.dll
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.Core.pdb
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.Quartz.pdb
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.Application.csprojAssemblyReference.cache
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.Application.AssemblyInfoInputs.cache
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.Application.AssemblyInfo.cs
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.Application.csproj.CopyComplete
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.Application.dll
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Application\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.Application.pdb

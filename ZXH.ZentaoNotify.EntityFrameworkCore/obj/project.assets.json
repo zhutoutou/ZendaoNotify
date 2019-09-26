@@ -1111,7 +1111,7 @@
           }
         }
       },
-      "MySqlConnector/0.49.2": {
+      "MySqlConnector/0.57.0-beta7": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.4.0",
@@ -1208,11 +1208,11 @@
           "lib/netstandard2.0/Nito.Disposables.dll": {}
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/2.2.0": {
+      "Pomelo.EntityFrameworkCore.MySql/2.2.1-preview1-final": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
-          "MySqlConnector": "0.49.2",
+          "MySqlConnector": "0.57.0-beta7",
           "Pomelo.JsonObject": "2.2.0"
         },
         "compile": {
@@ -4107,10 +4107,10 @@
         "version.txt"
       ]
     },
-    "MySqlConnector/0.49.2": {
-      "sha512": "AMdiJ1anymn/MnvSKkaWfZXs49WUsdGi/5nlVGIOQ5QYhRZIfAFobht+Y7rK1UtEUzbqnjCKUBI6Zpp4zzRupQ==",
+    "MySqlConnector/0.57.0-beta7": {
+      "sha512": "T2/1qc/ZpwmloYoFz3TueYqcimGyaEyLpqJa4rPyVpQ5g5vc0/0RTV8DWI758Yi9FY5r37Dh5OfoW053bISKBQ==",
       "type": "package",
-      "path": "mysqlconnector/0.49.2",
+      "path": "mysqlconnector/0.57.0-beta7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4118,9 +4118,11 @@
         "lib/net461/MySqlConnector.dll",
         "lib/net471/MySqlConnector.dll",
         "lib/netcoreapp2.1/MySqlConnector.dll",
+        "lib/netcoreapp3.0/MySqlConnector.dll",
         "lib/netstandard1.3/MySqlConnector.dll",
         "lib/netstandard2.0/MySqlConnector.dll",
-        "mysqlconnector.0.49.2.nupkg.sha512",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "mysqlconnector.0.57.0-beta7.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },
@@ -4359,15 +4361,15 @@
         "nito.disposables.nuspec"
       ]
     },
-    "Pomelo.EntityFrameworkCore.MySql/2.2.0": {
-      "sha512": "OIIR2ASp8J5VyIf2i9cli8BjvD0kZl5zCwi4DBR/E/D0WVt+iZyKwGhCLt1V9+KiXQbYcYAujuKN3cMmwk5nZg==",
+    "Pomelo.EntityFrameworkCore.MySql/2.2.1-preview1-final": {
+      "sha512": "hWlx8XwhePhtZ0v06U8d74wvHE26cddBZCGzkQLlOTCnpeiH1G9ZPR6WjRgtwbuXXpulRzvnVMFla/gXEyT7Ww==",
       "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/2.2.0",
+      "path": "pomelo.entityframeworkcore.mysql/2.2.1-preview1-final",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll",
-        "pomelo.entityframeworkcore.mysql.2.2.0.nupkg.sha512",
+        "pomelo.entityframeworkcore.mysql.2.2.1-preview1-final.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
@@ -8933,7 +8935,7 @@
     ".NETStandard,Version=v2.0": [
       "Abp.ZeroCore.IdentityServer4.EntityFrameworkCore >= 4.9.0",
       "NETStandard.Library >= 2.0.3",
-      "Pomelo.EntityFrameworkCore.MySql >= 2.2.0",
+      "Pomelo.EntityFrameworkCore.MySql >= 2.2.1-preview1-final",
       "ZXH.ZentaoNotify.Core >= 1.0.0"
     ]
   },
@@ -8964,7 +8966,9 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://proget.aecg.com.cn/nuget/CpcProPackage/": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/abp-nightly/api/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
@@ -8996,7 +9000,7 @@
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
-            "version": "[2.2.0, )"
+            "version": "[2.2.1-preview1-final, )"
           }
         },
         "imports": [
@@ -9009,7 +9013,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

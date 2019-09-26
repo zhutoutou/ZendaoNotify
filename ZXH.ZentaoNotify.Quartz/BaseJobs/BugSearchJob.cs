@@ -19,7 +19,7 @@ namespace ZXH.ZentaoNotify.Quartz.BaseJobs
             //     response.EnsureSuccessStatusCode();   
             //     var result = await response.Content.ReadAsStringAsync();               
             // }
-            await Task.Run(()=>Logger.Info("Excuted MyLogJob..!"));
+            await Task.Run(()=>Logger.Info("Executed MyLogJob..!"));
         }
     }
 }

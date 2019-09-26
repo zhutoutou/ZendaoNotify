@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ZXH.ZentaoNotify.Host",
     "\\ZXH.ZentaoNotify.Quartz",
     "\\ZXH.ZentaoNotify.Web.Core",
     "\\ZXH.ZentaoNotify.Web.Core\\obj"
   ],
-  "SelectedNode": "\\ZXH.ZentaoNotify.Web.Core\\bin",
+  "SelectedNode": "\\ZXH.ZentaoNotify.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -28,7 +28,6 @@ E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Web.Core\bin\Debug\netstandard2.0\ZXH.Ze
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Web.Core\bin\Debug\netstandard2.0\ZXH.ZentaoNotify.Core.pdb
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Web.Core\bin\Debug\netstandard2.0\ZXH.ZentaoNotify.Quartz.pdb
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Web.Core\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Web.Core.csprojAssemblyReference.cache
-E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Web.Core\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Web.Core.csproj.CoreCompileInputs.cache
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Web.Core\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Web.Core.AssemblyInfoInputs.cache
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Web.Core\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Web.Core.AssemblyInfo.cs
 E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.Web.Core\obj\Debug\netstandard2.0\ZXH.ZentaoNotify.Web.Core.csproj.CopyComplete

@@ -1,0 +1,11 @@
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.EntityFrameworkCore.deps.json
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.EntityFrameworkCore.dll
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.EntityFrameworkCore.pdb
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.Core.dll
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\bin\Debug\netstandard2.1\ZXH.ZentaoNotify.Core.pdb
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.EntityFrameworkCore.csprojAssemblyReference.cache
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.EntityFrameworkCore.AssemblyInfo.cs
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.EntityFrameworkCore.csproj.CopyComplete
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.EntityFrameworkCore.dll
+E:\GitHub\ZendaoNotify\ZXH.ZentaoNotify.EntityFrameworkCore\obj\Debug\netstandard2.1\ZXH.ZentaoNotify.EntityFrameworkCore.pdb

@@ -25,7 +25,7 @@ namespace ZXH.ZentaoNotify.Quartz
                 trigger.StartNow()
                     .WithSimpleSchedule(schedule=>{
                         schedule.RepeatForever()
-                            .WithIntervalInSeconds(5)
+                            .WithIntervalInHours(1)
                             .Build();
                     });
             });
